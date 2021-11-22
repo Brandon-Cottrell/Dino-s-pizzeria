@@ -125,7 +125,7 @@ header .header-links .sign-in-link .logout {
   header .header-links .sign-in-link .logout {
     position: absolute;
     right: 20px;
-    top: 6px;
+    top: 18px;
   }
 }
 
@@ -144,7 +144,7 @@ header .header-links .img img {
 @media screen and (max-width: 400px) {
   header .header-links .img img {
     position: absolute;
-    top: 2px;
+    top: 10px;
     right: 18px;
   }
 }
