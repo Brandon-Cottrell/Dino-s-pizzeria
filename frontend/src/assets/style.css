@@ -115,11 +115,17 @@ header .header-links .sign-in-link {
 header .header-links .sign-in-link a {
   color: #fdfafa;
   cursor: pointer;
+  position: absolute;
+  right: 36px;
+  top: 18px;
 }
 
 header .header-links .sign-in-link .logout {
   color: #fdfafa;
   cursor: pointer;
+  position: absolute;
+  right: 36px;
+  top: 18px;
 }
 @media screen and (max-width: 400px) {
   header .header-links .sign-in-link .logout {
@@ -463,8 +469,7 @@ Popup page
     position: fixed;
     font-size: 20px;
     padding: 3%;
-    margin: auto 5% 3%;
-    height: 65vh;
+    margin: auto 0%;
   }
 }
 .popup .popup-inner h1 {
