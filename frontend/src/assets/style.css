@@ -479,12 +479,13 @@ Popup page
   .popup .popup-inner {
     background-color: #fdfafa;
     color: #f43103;
-    margin: 10% 10%;
+    margin: 30px;
     position: fixed;
-    height: 65vh;
-    width: 45vh;
+    height: 75%;
+    width: 78%;
   }
 }
+
 .popup .popup-inner h1 {
   text-align: center;
 }
