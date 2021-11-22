@@ -109,6 +109,13 @@ header .header-links .sign-in-link .logout {
   color: #fdfafa;
   cursor: pointer;
 }
+@media screen and (max-width: 400px) {
+  header .header-links .sign-in-link .logout {
+    position: absolute;
+    right: 20px;
+    top: 6px;
+  }
+}
 
 header .header-links .img img {
   width: 30px;
@@ -127,11 +134,6 @@ header .header-links .img img {
     position: absolute;
     top: 2px;
     right: 18px;
-  }
-  header .header-links .sign-in-link .logout {
-    position: absolute;
-    right: 5px;
-    top: 5px;
   }
 }
 
@@ -275,7 +277,7 @@ Images
 }
 @media only screen and (max-width: 400px) {
   .images .option {
-    margin: 15px auto 0 10px;
+    margin: 15px auto 0 30px;
   }
 }
 
