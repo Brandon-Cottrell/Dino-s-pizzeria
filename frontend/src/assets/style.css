@@ -451,18 +451,18 @@ Popup page
   bottom: 0;
   z-index: 2;
 }
+.popup-inner p {
+  margin: auto 82px;
+  padding-top: 20px;
+}
 
 .popup .popup-inner {
   background-color: #fdfafa;
   color: #f43103;
   margin: 10% 30%;
   position: fixed;
-  height: 45vh;
+  height: vh;
   width: 45vh;
-}
-.popup-inner p {
-  margin: auto 82px;
-  padding-top: 20px;
 }
 
 @media only screen and (max-width: 800px) {
