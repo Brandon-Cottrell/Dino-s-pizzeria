@@ -479,9 +479,9 @@ Popup page
   .popup .popup-inner {
     background-color: #fdfafa;
     color: #f43103;
-    margin: 10% 30%;
+    margin: 10% 10%;
     position: fixed;
-    height: 45vh;
+    height: 54vh;
     width: 45vh;
   }
 }
