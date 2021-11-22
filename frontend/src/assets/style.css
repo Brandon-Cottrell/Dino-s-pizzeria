@@ -67,9 +67,9 @@ Common
   }
 }
 
-.header {
+/* .header {
   margin-left: 15px;
-}
+} */
 .heading1 {
   color: #fdfafa;
   font-size: 20px;
@@ -118,6 +118,15 @@ header .header-links .sign-in-link a {
   position: absolute;
   right: 36px;
   top: 18px;
+}
+
+@media screen and (max-width: 400px) {
+  header .header-links .sign-in-link a {
+    position: absolute;
+    right: 0px;
+    font-size: 16px;
+    top: 6px;
+  }
 }
 
 header .header-links .sign-in-link .logout {
