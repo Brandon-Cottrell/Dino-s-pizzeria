@@ -361,9 +361,13 @@ ul.items li .info .info-bottom .number {
   left: 15%;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 400px) {
   .main-visual img {
     height: 250px;
+  }
+  .color {
+    font-weight: bold;
+    font-size: 20px;
   }
   .main-visual .main-catch {
     top: 54px;
@@ -448,6 +452,7 @@ Popup page
     font-size: 20px;
     padding: 3%;
     margin: auto 5% 3%;
+    height: 65vh;
   }
 }
 .popup .popup-inner h1 {
