@@ -102,6 +102,9 @@ header .header-links .sign-in-link {
 header .header-links .sign-in-link a {
   color: #fdfafa;
   cursor: pointer;
+  position: absolute;
+  right: 60px;
+  top: 8px;
 }
 
 header .header-links .sign-in-link .logout {
@@ -118,6 +121,12 @@ header .header-links .img img {
   header .header-links .img img {
     width: 20px;
     margin: 10px 0px;
+  }
+
+  @media screen and (max-width: 400px) {
+      header .header-links .img img {
+    width: 18px;
+    margin: auto 2px;
   }
 }
 /*
@@ -809,15 +818,9 @@ Thankyou
   .message p {
     font-family: Roboto;
     color: #f43103;
-    margin: 10% 20%;
+    margin: 22% 20%;
     width: 63%;
   }
-}
-
-p {
-  text-align: center;
-  color: #f43103;
-  font-size: 20px;
 }
 
 .backhome button {
