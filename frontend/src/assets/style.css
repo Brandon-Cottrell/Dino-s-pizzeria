@@ -75,7 +75,7 @@ Common
   font-size: 20px;
   font-weight: bold;
   margin: 0;
-  padding: 10px;
+  padding: 20px;
 }
 .header-box a {
   text-decoration: none;
@@ -96,12 +96,15 @@ header .header-links p {
 
 header .header-links .sign-in-link {
   position: absolute;
+  display: inline-block;
+
   top: 2px;
   right: 40px;
 }
 
 @media screen and (max-width: 400px) {
   eader .header-links .sign-in-link {
+    display: inline-block;
     position: absolute;
     top: 0px;
     right: 40px;
