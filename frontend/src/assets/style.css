@@ -467,18 +467,22 @@ Popup page
 
 @media only screen and (max-width: 800px) {
   .popup .popup-inner {
-    margin: 10% 12%;
+    background-color: #fdfafa;
+    color: #f43103;
+    margin: 10% 30%;
+    position: fixed;
+    height: 45vh;
+    width: 45vh;
   }
 }
 @media only screen and (max-width: 400px) {
   .popup .popup-inner {
     background-color: #fdfafa;
     color: #f43103;
-    width: 45vh;
+    margin: 10% 30%;
     position: fixed;
-    font-size: 20px;
-    padding: 3%;
-    margin: auto 0%;
+    height: 45vh;
+    width: 45vh;
   }
 }
 .popup .popup-inner h1 {
