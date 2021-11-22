@@ -128,7 +128,13 @@ header .header-links .img img {
     top: 2px;
     right: 18px;
   }
+  header .header-links .sign-in-link .logout {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+  }
 }
+
 /*
 section1
 ************************************/
@@ -266,6 +272,11 @@ Images
   background-color: white;
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+}
+@media only screen and (max-width: 400px) {
+  .images .option {
+    margin: 15px auto 0 10px;
+  }
 }
 
 ul.items {
