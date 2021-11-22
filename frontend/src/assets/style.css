@@ -297,8 +297,7 @@ ul.items .carts {
 }
 @media screen and (max-width: 400px) {
   ul.items .carts {
-    margin: auto 30px;
-    margin-bottom: 25px;
+    margin: 30px 33px 31px 30px;
   }
 }
 ul.items li img.item-image {
