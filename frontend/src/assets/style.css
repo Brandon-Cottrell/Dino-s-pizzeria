@@ -120,8 +120,8 @@ header .header-links .sign-in-link a {
 
 @media screen and (max-width: 400px) {
   header .header-links .sign-in-link a {
-    position: absolute;
-    right: 0px;
+    position: relative;
+    top: 16px;
     font-size: 16px;
     top: 6px;
   }
