@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useDispatch } from "react-redux";
 import { signIn } from "../reducks/users/operations";
 import Home from "../containers/Home";
-import CrossX from "../assets/img/cross.png";
+// import CrossX from "../assets/img/cross.png";
 import { push } from "connected-react-router";
 
 const Signin = () => {
@@ -34,7 +34,7 @@ const Signin = () => {
       <section class="popup">
         <div class="popup-inner">
           <span onClick={closeButton}>
-            <img src={CrossX} class="close" />
+            {/* <img src={CrossX} class="close" /> */}
           </span>
           <div class="input">
             <br />

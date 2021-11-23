@@ -480,13 +480,12 @@ Popup page
     width: 45vh;
   }
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 450px) {
   .popup .popup-inner {
     background-color: #fdfafa;
     color: #f43103;
     margin: 30px;
     position: fixed;
-    height: 75%;
     width: 78%;
   }
 }
