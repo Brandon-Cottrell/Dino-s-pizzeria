@@ -86,9 +86,6 @@ header .header-links {
   display: flex;
   font-size: 1.2em;
   padding: 15px;
-  position: absolute;
-  top: 0px;
-  right: 20px;
 }
 
 header .header-links p {
@@ -117,9 +114,8 @@ header .header-links .sign-in-link {
 header .header-links .sign-in-link a {
   color: #fdfafa;
   cursor: pointer;
-  position: absolute;
-  right: 36px;
-  top: 18px;
+  position: relative;
+  top: 16px;
 }
 
 @media screen and (max-width: 400px) {
