@@ -308,6 +308,8 @@ Images
   .images .option {
     margin: 15px auto 0 12px;
   }
+}
+@media only screen and (max-width: 450px) {
   ul.items {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
