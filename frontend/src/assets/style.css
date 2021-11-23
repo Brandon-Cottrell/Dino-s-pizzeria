@@ -17,7 +17,9 @@ Common
   margin-left: 20px;
   margin-top: 5px;
 }
-
+.post-border {
+  width: 60%;
+}
 .popup input {
   background-color: rgba(255, 255, 255, 0.5);
   width: 90%;
@@ -302,16 +304,16 @@ Images
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 450px) {
   .images .option {
-    margin: 15px auto 0 30px;
+    margin: 15px auto 0 12px;
+  }
+  ul.items {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 
-ul.items {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-}
 @media screen and (max-width: 1000px) {
   ul.items {
     grid-template-columns: repeat(2, 1fr);
@@ -861,6 +863,8 @@ Thankyou
 
 .message p {
   font-size: 18px;
+  text-align: center;
+  color: #f43103;
 }
 @media screen and (max-width: 450px) {
   .message p {
@@ -883,7 +887,7 @@ Thankyou
   cursor: pointer;
   width: 250px;
   height: 50px;
-  margin: 0 35%;
+  margin: auto 43%;
   margin-top: 50px;
 }
 @media screen and (max-width: 450px) {
