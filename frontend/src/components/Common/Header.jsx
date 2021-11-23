@@ -25,9 +25,7 @@ export default function Header() {
     <header>
       <section class="header-box">
         <a href="/">
-          <div class="header">
-            <p class="heading1">Dino's Pizzeria</p>
-          </div>
+          <div class="header">{<p class="heading1">Dino's Pizzeria</p>}</div>
         </a>
         <div class="header-links">
           <p class="sign-in-link">
