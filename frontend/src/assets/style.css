@@ -456,10 +456,10 @@ Popup page
   bottom: 0;
   z-index: 2;
 }
-.popup-inner p {
+/* .popup-inner p {
   margin: auto 82px;
   padding-top: 20px;
-}
+} */
 
 .popup .popup-inner {
   background-color: #fdfafa;
@@ -487,6 +487,7 @@ Popup page
     margin: 30px;
     position: fixed;
     width: 78%;
+    height: 400px;
   }
 }
 
