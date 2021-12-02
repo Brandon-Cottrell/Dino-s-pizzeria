@@ -328,7 +328,7 @@ ul.items .carts {
 }
 @media screen and (max-width: 400px) {
   ul.items .carts {
-    margin: 30px 33px 31px 30px;
+    margin: auto auto 20px;
     width: 40vh;
   }
 }
@@ -872,7 +872,7 @@ Thankyou
     color: #f43103;
     font-size: 20px;
     text-align: center;
-    margin: auto 110px;
+    margin: auto 85px;
     position: absolute;
     top: 60px;
   }
