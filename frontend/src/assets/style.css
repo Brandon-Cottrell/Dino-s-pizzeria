@@ -555,7 +555,8 @@ tr {
   }
 }
 table td {
-  padding: 30px;
+  font-size: 15px;
+  padding: 18px 10px;
 }
 .total {
   border-collapse: collapse;
@@ -644,7 +645,7 @@ table td {
   color: #f43103;
   font-size: 2em;
   font-weight: bolder;
-  margin: 0;
+  margin: 18px;
 }
 
 .details h4 {
@@ -652,7 +653,7 @@ table td {
   color: #f43103;
   font-size: 20px;
   font-weight: normal;
-  margin: 20px auto;
+  margin: 10px 20px;
 }
 
 .details p {
@@ -698,19 +699,17 @@ table td {
 .details .dispatch .form {
   font-family: Roboto;
   color: #f43103;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: normal;
 }
 
 .details .dispatch .form input,
 [type="Text"] {
   width: 100%;
-  padding: 10px;
-  border-radius: 5px;
-  margin: 5px 0 35px;
-  font-size: 1.2em;
+  padding: 10px 24px;
+  margin: 6px 0 10px;
   border: none;
-  background-color: #eaeaea;
+  background-color: #f7f7f7;
   color: #f43103;
 }
 .details .dispatch .form ::placeholder .details input[type="Submit"] {
