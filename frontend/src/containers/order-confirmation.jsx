@@ -10,10 +10,6 @@ const OrderConfirmation = () => {
   }, []);
   return (
     <div>
-      <div class="box">
-        <p>- Thank you for your ordering -</p>
-      </div>
-
       <div class="message">
         <p>
           Thank you for your ordering{" "}

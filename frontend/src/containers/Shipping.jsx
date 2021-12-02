@@ -87,10 +87,6 @@ const Shipping = () => {
 
   return (
     <>
-      <div class="box">
-        <p>- My items Details -</p>
-      </div>
-
       <section class="details">
         <div class="product-details">
           <h3>Shipment Details</h3>

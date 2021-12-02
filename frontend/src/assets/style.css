@@ -159,8 +159,8 @@ header .header-links .img img {
 @media screen and (max-width: 400px) {
   header .header-links .img img {
     position: absolute;
-    top: 10px;
-    right: 18px;
+    top: 0px;
+    right: 0px;
   }
 }
 
@@ -324,10 +324,12 @@ ul.items .carts {
   box-shadow: 0 5px 10px 0 rgb(0 0 0 / 20%);
   margin: auto 30px;
   margin-bottom: 25px;
+  width: 40vh;
 }
 @media screen and (max-width: 400px) {
   ul.items .carts {
     margin: 30px 33px 31px 30px;
+    width: 40vh;
   }
 }
 ul.items li img.item-image {
@@ -622,7 +624,7 @@ table td {
 }
 .details .product-details {
   width: 70%;
-  margin: 0 auto;
+  margin: 23px 50px;
   font-family: Roboto;
 }
 
@@ -640,7 +642,7 @@ table td {
 .details h3 {
   font-family: Roboto;
   color: #f43103;
-  font-size: 4em;
+  font-size: 2em;
   font-weight: bolder;
   margin: 0;
 }
@@ -746,7 +748,8 @@ ul {
     list-style: none;
     color: #aa2911;
     padding: 0;
-    margin-bottom: 30px;
+    margin-top: 40px;
+    margin-bottom: 50px;
   }
 }
 
@@ -870,9 +873,9 @@ Thankyou
     color: #f43103;
     font-size: 20px;
     text-align: center;
-    margin: auto 75px;
+    margin: auto 110px;
     position: absolute;
-    top: 40px;
+    top: 60px;
   }
 }
 
