@@ -8,3 +8,8 @@ class ItemList(generics.ListAPIView):
     # Get all posts, limit = 20
     queryset = Item.objects.order_by('created_at').reverse().filter(status='active')
     serializer_class = ItemSerializer
+
+
+
+
+    

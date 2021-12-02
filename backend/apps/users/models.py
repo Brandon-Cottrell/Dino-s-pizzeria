@@ -16,11 +16,12 @@ class User(models.Model):
     email = models.EmailField(
         'email', blank=False, null=False, max_length=254, db_index=True
     )
+   
     token = models.CharField(
         'token', blank=True, null=True, max_length=500, db_index=True
     )
     token_expires_at = models.DateTimeField(
-        'Token Expires Datetime', blank=True, null=True, 
+        'Token Expires Datetime', blank=True, null=True,
     )
     created_at = models.DateTimeField(
         'Created Datetime', blank=True, auto_now_add=True
