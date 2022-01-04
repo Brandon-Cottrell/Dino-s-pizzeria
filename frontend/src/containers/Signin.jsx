@@ -33,9 +33,7 @@ const Signin = () => {
       <Home />
       <section class="popup">
         <div class="popup-inner">
-          <span onClick={closeButton}>
-            {/* <img src={CrossX} class="close" /> */}
-          </span>
+          <span onClick={closeButton}></span>
           <div class="input">
             <br />
             <br />
@@ -55,7 +53,7 @@ const Signin = () => {
               onChange={inputPassword}
               required
               placeholder="Password"
-              vlaue={password}
+              value={password}
             />
           </div>
 
