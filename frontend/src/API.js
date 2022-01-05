@@ -17,12 +17,12 @@ if (
 //     "Content-Type": "application/json",
 //   },
 // });
-const api = axios.create({
-  baseURL: baseURL,
-  headers: {
-    "Content-Type": "application/json",
-  },
-});
+// const api = axios.create({
+//   baseURL: baseURL,
+//   headers: {
+//     "Content-Type": "application/json",
+//   },
+// });
 
 api.interceptors.request.use(
   (config) => {
