@@ -736,7 +736,7 @@ ul {
   grid-template-columns: repeat(3, 1fr);
   list-style: none;
   color: #aa2911;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
   padding: 2px;
 }
 
@@ -746,7 +746,7 @@ ul {
     grid-template-columns: repeat(2, 1fr);
     list-style: none;
     color: #aa2911;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     padding: 10px;
   }
 }
